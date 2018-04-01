@@ -1,11 +1,11 @@
 import React from 'react';
+import Img_logo from '../jopwell.png';
 
-import Img_Logo from '../jopwell.png'
-
+//Header with the Jopwell logo
 const Header = () => {
   return (
     <header>
-      <img src={Img_Logo} className='logo' />
+      <img src={Img_logo} className='img' />
     </header>
   )
 }

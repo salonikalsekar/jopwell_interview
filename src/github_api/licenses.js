@@ -5,7 +5,8 @@ export const licenses = () => {
     .then (res => {
       if (res.ok) 
         return res.json();
-      else
-        Promise.reject('Try Again')
+      else 
+        Promise.reject('There are some issues');
+      
     })
 }
